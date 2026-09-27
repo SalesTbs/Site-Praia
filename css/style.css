@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f5eff9;
+    color: #202020;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Limelight', cursive;
+}
+
+h1 {
+    height: 160px;
+    margin: 0;
+    padding: 58px 5.5%;
+    background-color: #064f66;
+    color: white;
+    font-size: 36px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.banner img {
+    float: none;
+    display: block;
+    width: 100%;
+    height: 465px;
+    margin: 0;
+    object-fit: cover;
+}
+
+main,
+h2,
+p {
+    width: 89%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+}
+
+main {
+    padding: 65px 0 40px;
+}
+
+main h2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    color: #00536a;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+p {
+    width: 42%;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+main p {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+img {
+    float: right;
+    width: 42%;
+    height: 360px;
+    margin: -270px 5.5% 60px 30px;
+    object-fit: cover;
+}
+
+h2 {
+    clear: both;
+}
+
+
+.cartão {
+    display: inline-block;
+    width: 27.5%;
+    min-height: 165px;
+    margin: 20px 0 20px 3%;
+    padding: 30px 34px;
+    vertical-align: top;
+    border: 3px solid #00536a;
+    border-radius: 10px;
+    background-color: #9abfde;
+}
+
+.cartão.cores.invertidas {
+    background-color: #527f94;
+    color: white;
+}
+
+.cartão h3 {
+    margin: 0 0 18px;
+    font-size: 24px;
+}
+
+.cartão p {
+    width: auto;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+.galeria {
+    display: flex;
+    gap: 40px;
+    margin: 30px 5.5%;
+}
+
+.galeria img {
+    float: none;
+    width: 22%;
+    aspect-ratio: 1;
+    margin: 0;
+    border-radius: 45px;
+    object-fit: cover;
+}
+
+
+.site-footer {
+    padding: 38px 20px;
+    background-color: #064f66;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    width: auto;
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        height: auto;
+        padding: 35px 5.5%;
+        font-size: 28px;
+    }
+
+    .banner img {
+        height: 300px;
+    }
+
+    p {
+        width: 89%;
+    }
+
+    img {
+        float: none;
+        width: 89%;
+        height: auto;
+        margin: 25px 5.5%;
+    }
+
+    .cartão {
+        display: block;
+        width: 89%;
+        margin: 20px 5.5%;
+    }
+
+    .galeria {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .galeria img {
+        width: 46%;
+    }
+
+}
