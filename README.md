@@ -20,7 +20,3 @@ Guilherme Andrade dos Santos Trevisan RM576676
 Thales Bernardino Seixas RM574617
 
 
-### Link do GitHub Pages
-
-https://salestbs.github.io/Site-Praia/
-
